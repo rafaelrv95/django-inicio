@@ -5,10 +5,26 @@
     <meta charset="utf-8">
     <title>Particulas</title>
     <link rel="stylesheet" href="{% static "css/estilo.css" %}">
-
   </head>
-  <body id="particles-js">
-    <div ></div>
+  <body>
+    <div id="particles-js"></div>
+
+    <div class="login-page">
+
+      <div class="form">
+
+
+        <form class="login-form">
+          <p class="titulo">Iniciar sesión</p>
+          <input type="text" placeholder="Usuario"/>
+          <input type="password" placeholder="Contaseña"/>
+          <button>login</button>
+          <p class="message"><a href="#">Crear cuenta</a></p>
+        </form>
+      </div>
+    </div>
+
+
     <script type="text/javascript" src="{% static "js/particles.js" %}"></script>
     <script type="text/jscript" src="{% static "js/particulas.js" %}"></script>
   </body>

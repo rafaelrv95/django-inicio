@@ -1,7 +1,7 @@
-from django.http import HttpResponse
+from django.shortcuts import render, HttpResponse
 
 
 def index(request):
-    return HttpResponse("hello, world. estoy en el index de polls")
+    return render(request, 'login/sesion.html')
 
 # Create your views here.
